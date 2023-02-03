@@ -25,3 +25,24 @@ Body {
 	"Helvetica Neue",
 	Sans-Serif;
 }
+.Container {
+	Color: #333;
+	Margin: 0 Auto;
+	Text-Align: Center;
+}
+H1 {
+	Font-Weight: Normal;
+	Letter-Spacing: .125rem;
+	Text-Transform: Uppercase;
+}
+Li {
+	Display: Inline-Block;
+	Font-Size: 1.5em;
+	List-Style-Type: None;
+	Padding: 1em;
+	Text-Transform: Uppercase;
+}
+Li Span {
+	Display: Block;
+	Font-Size: 4.5rem;
+}
