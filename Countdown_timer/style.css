@@ -1,0 +1,27 @@
+/* General Styling */
+:Root {
+--Smaller: .75;
+}
+* {
+	Box-Sizing: Border-Box;
+	Margin: 0;
+	Padding: 0;
+}
+Html, Body {
+	Height: 100%;
+	Margin: 0;
+}
+Body {
+	Align-Items: Center;
+	Background-Color: #Ffd54f;
+	Display: Flex;
+	Font-Family: -Apple-System,
+	BlinkMacSystemFont,
+	"Segoe UI",
+	Roboto,
+	Oxygen-Sans,
+	Ubuntu,
+	Cantarell,
+	"Helvetica Neue",
+	Sans-Serif;
+}
