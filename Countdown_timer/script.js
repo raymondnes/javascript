@@ -17,4 +17,21 @@ If (Today > Birthday) {
 Birthday = DayMonth + NextYear;
 }
 //End
-
+Const CountDown = New Date(Birthday).GetTime(),
+X = SetInterval(Function() {
+Const Now = New Date().GetTime(),
+Distance = CountDown - Now;
+Document.GetElementById("Days").InnerText = Math.Floor(Distance / (Day)),
+Document.GetElementById("Hours").InnerText = Math.Floor((Distance % (Day)) / (Hour)),
+Document.GetElementById("Minutes").InnerText = Math.Floor((Distance % (Hour)) / (Minute)),
+Document.GetElementById("Seconds").InnerText = Math.Floor((Distance % (Minute)) / Second);
+//Do Something Later When Date Is Reached
+If (Distance < 0) {
+Document.GetElementById("Headline").InnerText = "It's My Birthday!";
+Document.GetElementById("Countdown").Style.Display = "None";
+Document.GetElementById("Content").Style.Display = "Block";
+ClearInterval(X);
+}
+//Seconds
+}, 0)
+}());
