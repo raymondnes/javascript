@@ -46,3 +46,22 @@ Li Span {
 	Display: Block;
 	Font-Size: 4.5rem;
 }
+.Emoji {
+	Display: None;
+	Padding: 1rem;
+}
+.Emoji Span {
+	Font-Size: 4rem;
+	Padding: 0 .5rem;
+}
+@Media All And (Max-Width: 768px) {
+H1 {
+	Font-Size: Calc(1.5rem * Var(--Smaller));
+}
+Li {
+	Font-Size: Calc(1.125rem * Var(--Smaller));
+}
+Li Span {
+	Font-Size: Calc(3.375rem * Var(--Smaller));
+}
+}
