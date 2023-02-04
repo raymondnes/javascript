@@ -1,1 +1,1 @@
-COundtown timer using, Js, CSS, and HTML
+Coundtown timer using, Js, CSS, and HTML
