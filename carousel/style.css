@@ -1,0 +1,51 @@
+*{  
+   Margin: 0px;  
+   Padding: 0px;  
+   Box-Sizing: Border-Box;  
+   Background-Color: Indigo;  
+ }  
+ H1{  
+   Text-Align: Center;  
+   Color: White;  
+ }  
+ .Carousel{  
+   Width:50%;  
+   Margin: Auto;  
+   Overflow: Hidden;  
+ }  
+ .CarouselContainer{  
+   Display: Flex;  
+ }  
+ .Slides{  
+   Width: 100%;  
+   Height:390px;  
+ }  
+ .Button{  
+   Position: Relative;  
+   Transition: 0.1s Ease-In;  
+ }  
+ #Next{  
+   Position: Absolute;  
+   Background-Color: White;  
+   Opacity: 0.5;  
+   Top: 25%;  
+   Right: 25%;  
+   Width: 5%;  
+   Height: 20%;  
+   Z-Index: 5;  
+ }  
+ #Next:hover{  
+   Opacity: 0.2;  
+ }  
+ #Prev{Position: Absolute;  
+   Background-Color: White;  
+   Opacity: 0.5;  
+   Top: 25%;  
+   Left: 25%;  
+   Width: 5%;  
+   Height: 20%;  
+   Z-Index: 5;  
+ }  
+ #Prev:hover{  
+   Opacity: 0.2;  
+ }
