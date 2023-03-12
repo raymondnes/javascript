@@ -93,3 +93,16 @@ console.log(5 + 6);
 
 </body>
 </html>
+
+# JavaScript Print
+
+The only exception is that you can call the window.print() method in the browser to print the content of the current window.
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<button onclick="window.print()">Print this page</button>
+
+</body>
+</html>
