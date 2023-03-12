@@ -10,9 +10,9 @@ body {
   height: 100vh;
   width: 100%;
   -webkit-box-pack: center;
-          justify-content: center;
+  justify-content: center;
   -webkit-box-align: center;
-          align-items: center;
+  align-items: center;
   padding: 0 20px;
   background-image: url("https://www.toptal.com/designers/subtlepatterns/patterns/debut_light.png");
 }

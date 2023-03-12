@@ -1,0 +1,59 @@
+ @Import Url('Https://Fonts.Googleapis.Com/Css2?Family=Poppins:wght@200;300;400;500;600;700&Display=Swap');
+  *{
+    Margin: 0;
+    Padding: 0;
+    Box-Sizing: Border-Box;
+    Font-Family: "Poppins", Sans-Serif;
+  }
+  Body{
+    Display: Flex;
+    Align-Items: Center;
+    Justify-Content: Center;
+    Min-Height: 100vh;
+    Background: #0fb8ac;
+  }
+  .Drag-Area{
+    Border: 2px Dashed #Fff;
+    Height: 500px;
+    Width: 700px;
+    Border-Radius: 5px;
+    Display: Flex;
+    Align-Items: Center;
+    Justify-Content: Center;
+    Flex-Direction: Column;
+  }
+  .Drag-Area.Active{
+    Border: 2px Solid #Fff;
+  }
+  .Drag-Area .Icon{
+    Font-Size: 100px;
+    Color: #Fff;
+  }
+  .Drag-Area Header{
+    Font-Size: 30px;
+    Font-Weight: 500;
+    Color: #Fff;
+  }
+  .Drag-Area Span{
+    Font-Size: 25px;
+    Font-Weight: 500;
+    Color: #Fff;
+    Margin: 10px 0 15px 0;
+  }
+  .Drag-Area Button{
+    Padding: 10px 25px;
+    Font-Size: 20px;
+    Font-Weight: 500;
+    Border: None;
+    Outline: None;
+    Background: #Fff;
+    Color: #0fb8ac;
+    Border-Radius: 5px;
+    Cursor: Pointer;
+  }
+  .Drag-Area Img{
+    Height: 100%;
+    Width: 100%;
+    Object-Fit: Cover;
+    Border-Radius: 5px;
+  }
