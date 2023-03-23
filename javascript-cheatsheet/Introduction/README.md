@@ -78,13 +78,13 @@
  
 ### JavaScript supports arithmetic operators for:
 
-    <ul>
-        <li> + Addition </li> 
-        <li> - Subtraction </li>
-        <li> * multiplication </li>
-        <li> / Division </li>
-        <li> % Modulo </li>
-    </ul>
+    <pre>
+         + Addition  
+         - Subtraction 
+         * multiplication 
+         / Division 
+         % Modulo 
+    </pre>
 
 ---
 
@@ -104,12 +104,12 @@
 
 ### An assignment operator assigns a value to its left operand based on the value of its right operand. Here are some of them:
 
-    <ul>
-         <li> += Addition Assignment</li>
-         <li> -= Subtraction Assignment</li>
-         <li> *= Multiplication Assignment</li>
-         <li> /= Division Assignment</li>
-    </ul>
+    <pre>
+         += Addition Assignment
+         -= Subtraction Assignment
+         *= Multiplication Assignment
+         /= Division Assignment
+    </pre>
 
 --- 
 
