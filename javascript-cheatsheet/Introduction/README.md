@@ -123,6 +123,47 @@
 
 ### Variables are used whenever there’s a need to store a piece of data. A variable contains data that can be used in the program elsewhere. Using variables also ensures code re-usability since it can be used to replace the same value in multiple places.
 
+---
+
+## Undefined
+
+### undefined is a primitive JavaScript value that represents lack of defined value. Variables that are declared but not initialized to a value will have the value undefined .
+
+---
+
+## Declaring Variables
+
+### To declare a variable in JavaScript, any of these three keywords can be used along with a variable name:
+   
+   <pre>
+        var is used in pre-ES6 versions of JavaScript.
+        let is the preferred way to declare a variable when it can be reassigned.
+        const is the preferred way to declare a variable with a constant value.
+    </pre>
+
+---
+
+## Template Literals
+
+### Template literals are strings that allow embedded expressions, ${expression} . While regular strings use single ' or double " quotes, template literals use backticks instead.
+
+---
+
+## Let Keyword
+
+### let creates a local variable in JavaScript & can be re-assigned. Initialization during the declaration of a let variable is optional. A let variable will contain undefined if nothing is assigned to it.
+
+---
+
+## const Keyword
+
+### A constant variable can be declared using the keyword const . It must have an assignment. Any attempt of re-assigning a const variable will result in JavaScript runtime error.
+
+
+## String concatenation
+
+### In JavaScript, multiple strings can be concatenated together using the + operator. In the example, multiple strings and variables containing string values have been concatenated. After execution of the code block, the displayText variable will contain the concatenated string.
+
 
 
 
