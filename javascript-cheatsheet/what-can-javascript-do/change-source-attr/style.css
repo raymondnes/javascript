@@ -1,0 +1,20 @@
+.button
+{
+	color: white;
+  	margin: 20px;
+  	border: solid 3px gray;
+  	border-radius: 7px;
+  	padding: 10px;
+  	background-color: skyblue;
+  	font-style: bold;
+}
+
+.left:hover
+{
+	background-color: pink;
+}
+
+.front:hover
+{
+	background-color: orange;
+}
